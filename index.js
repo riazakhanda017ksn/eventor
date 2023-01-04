@@ -37,7 +37,7 @@ client.connect((err) => {
 
   // get admins
   app.get("/allAdmins", (req, res) => {
-    users.find({role: "admin"}).toArray((err, docs) => {
+    users.find({ role: "admin" }).toArray((err, docs) => {
       res.send(docs);
     });
   });
