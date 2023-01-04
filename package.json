@@ -1,0 +1,27 @@
+{
+  "name": "eventor-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.7.1",
+    "nodemon": "^2.0.13"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToufiqurRahmanTamkin/eventor-test-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ToufiqurRahmanTamkin/eventor-test-server/issues"
+  },
+  "homepage": "https://github.com/ToufiqurRahmanTamkin/eventor-test-server#readme"
+}
